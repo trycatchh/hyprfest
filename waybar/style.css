@@ -54,12 +54,12 @@ button:hover {
     transition: .1s;
 }
 #pulseaudio:hover {
-    background-color: rgba(255,255,255,.25);
+    background-color: rgba(255,255,255,.1);
     border-radius: 0 0 20px 20px;
 }
 
 #workspaces {
-    background-color: rgba(255,255,255,.25);
+    background-color: rgba(255,255,255,.1);
     padding-right: 20px;
     border-radius: 0 0 20px 0;
 }
@@ -135,7 +135,7 @@ button:hover {
 }
 
 #clock {
-    background-color: rgba(255,255,255,.25);
+    background-color: rgba(255,255,255,.1);
     color: #fff;
     border-radius: 0 0 20px 20px;
     font-weight: 800;
@@ -147,7 +147,7 @@ button:hover {
 }
 
 #battery {
-    background-color: rgba(255,255,255,.25);
+    background-color: rgba(255,255,255,.1);
     color: #fff;
     border-radius: 0 0 0 20px;
 }
@@ -265,13 +265,13 @@ label:focus {
 }*/
 
 #tray {
-    background-color: rgba(0, 0, 0, .25);
-    border-radius: 50%;
-    padding: 5px 7px;
+    /*border-radius: 50%;*/
+    /*padding: 5px 7px;*/
     transition: 1s;
+    background-color: rgba(0,0,0,0);
 }
 #tray:hover {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #tray > .passive {
